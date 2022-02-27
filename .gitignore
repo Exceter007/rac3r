@@ -38,3 +38,4 @@ cmake_install.cmake
 rac3r
 sleep
 .idea
+*.cbp
