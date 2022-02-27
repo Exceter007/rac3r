@@ -31,6 +31,10 @@
 *.out
 *.app
 
-# CMake
 CMakeCache.txt
 CMakeFiles
+Makefile
+cmake_install.cmake
+rac3r
+sleep
+.idea

@@ -1,6 +1,6 @@
 # MIT License
 #
-# Copyright (c) 2020 John Dunlap
+# Copyright (c) 2022 John Dunlap
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -27,6 +27,14 @@ project (rac3r)
 add_executable(rac3r
         "${PROJECT_SOURCE_DIR}/src/rac3r.cpp"
         )
-target_include_directories(getopt1
+target_include_directories(rac3r
         PUBLIC "${PROJECT_SOURCE_DIR}/src"
         )
+
+add_executable(sleep
+        "${PROJECT_SOURCE_DIR}/src/sleep.c"
+        )
+target_include_directories(sleep
+        PUBLIC "${PROJECT_SOURCE_DIR}/src"
+        )
+
